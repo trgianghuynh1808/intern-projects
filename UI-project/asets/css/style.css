@@ -2,20 +2,23 @@
   padding: 40px;
   padding-bottom: 0px;
 }
-#menu-container {
+
+#container #menu-container {
   display: flex;
   justify-content: space-between;
 }
-.menu {
+
+#menu-container .menu {
   margin-left: 10px;
-  color: rgb(2, 120, 28);
-  font-size: 20px;
   padding-left: 10px;
   padding-right: 10px;
   text-decoration: none;
   padding-bottom: 5px;
+
+  color: rgb(2, 120, 28);
+  font-size: 20px;
 }
 
-.menu:hover {
+#meny-container .menu:hover {
   border-bottom: 5px solid rgb(2, 120, 28);
 }
