@@ -1,6 +1,9 @@
 #container {
   padding: 40px;
   padding-bottom: 0px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 #container #menu-container {
@@ -15,7 +18,7 @@
   padding-bottom: 5px;
 
   color: rgb(2, 120, 28);
-  font-size: 20px;
+
   text-decoration: none;
   line-height: 35px;
 }
@@ -36,22 +39,17 @@ main {
   padding-bottom: 0px;
 
   border-right: 1px solid #ccc;
-  width: calc(68% - 80px);
+  width: calc(70% - 80px);
   color: #414141;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   line-height: 32px;
-  font-size: 20px;
 }
 
 #right-container {
-  padding: 20px;
-  padding-right: 10px;
-  padding-bottom: 0px;
+  padding-top: 20px;
 
-  width: calc(32% - 51px);
+  width: calc(30% - 51px);
   color: #414141;
   line-height: 32px;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 #left-container #title {
@@ -92,7 +90,7 @@ main {
   font-size: 17px;
 }
 
-#left-container #button-twitter {
+#left-container #twitter-button {
   padding: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -102,11 +100,10 @@ main {
   background-color: #4099ff;
   color: #fff;
   text-decoration: none;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 17px;
 }
 
-#left-container #button-facebook {
+#left-container #facebook-button {
   padding: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -116,11 +113,10 @@ main {
   background-color: #3b5998;
   color: #fff;
   text-decoration: none;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 17px;
 }
 
-#left-container #button-kofi {
+#left-container #kofi-button {
   padding: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -129,7 +125,6 @@ main {
   background-color: #6a1b9a;
   color: #fff;
   text-decoration: none;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 17px;
 }
 
@@ -139,18 +134,15 @@ main {
 
   color: rgb(49, 49, 49);
   font-weight: 700;
-  font-size: 20px;
 }
 
 #right-container .content-1 {
   margin-bottom: 20px;
 
-  font-size: 20px;
   color: #414141;
 }
 
-#right-container .button-SUBSCRIBE {
-  padding: 20px;
+#right-container .subscribe-button {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 5px;
@@ -158,13 +150,14 @@ main {
   background-color: #2b8a3e;
   color: #fff;
   text-decoration: none;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
   width: 128px;
   height: 44px;
-  align-items: flex-start;
 }
 
 #right-container #content-5 {
@@ -177,7 +170,6 @@ main {
 #right-container .content-6 {
   margin-bottom: 20px;
 
-  font-size: 20px;
   line-height: 32px;
 }
 
@@ -197,27 +189,25 @@ main {
   font-size: 30px;
   font-weight: 400;
   line-height: 37px;
-
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 #right-container .content-10 {
   color: #02781c;
-  font-size: 20px;
   text-decoration: none;
 }
+
 #right-container .content-11 {
   color: #999;
   font-size: 16px;
 }
 
 #right-container .content-11:hover {
-  color: blue;
+  color: #268bd2;
 }
 
 #right-container .content-12:hover a,
 #right-container .content-12:hover .content-11 {
-  color: blue;
+  color: #268bd2;
 }
 #right-container .content-12 {
   padding-bottom: 20px;
@@ -239,35 +229,34 @@ main {
 
   color: #313131;
   font-weight: 700;
-  font-size: 20px;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 #between-container #content-14 {
   padding-bottom: 20px;
-  font-size: 20px;
+
   color: #313131;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
-#between-container #button-SUBSCRIBE-1 {
-  border-radius: 5px;
-  padding: 20px;
+#between-container #subscribe-button-1 {
   padding-left: 10px;
   padding-right: 10px;
-  margin-bottom: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
 
+  background-color: #2b8a3e;
   color: #fff;
   text-decoration: none;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
   width: 128px;
-  background-color: #2b8a3e;
+  height: 44px;
 }
 
-#between-container #button-BUY-ME-A-COFFEE {
+#between-container #buy-me-a-coffee-button {
   border-radius: 5px;
   margin-bottom: 10px;
   padding: 20px;
@@ -276,7 +265,6 @@ main {
 
   color: #fff;
   text-decoration: none;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
@@ -293,8 +281,6 @@ main {
 
   color: #02781c;
   font-size: 16px;
-  font-family: "Roboto", Helvetica, Arial, sans-serif Arial, Helvetica,
-    sans-serif;
   line-height: 25px;
   text-decoration: none;
 }
@@ -305,7 +291,5 @@ main {
 
   font-size: 16px;
   color: #414141;
-  font-family: "Roboto", Helvetica, Arial, sans-serif Arial, Helvetica,
-    sans-serif;
   line-height: 25px;
 }
