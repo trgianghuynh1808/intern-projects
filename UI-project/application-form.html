@@ -5,6 +5,163 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/application-form.css" />
   </head>
-  <body></body>
+  <body id="outermost">
+    <div id="outside">
+      <form id="survey-from" action="/application-form">
+        <h1 id="title">Application For Permission To Date My Daughter</h1>
+        <div class="content">
+          <b class="content-1">Note:</b> Form is to be completed at least 21
+          days prior to date
+        </div>
+        <div id="borders">
+          <div id="title-1">Personal Details</div>
+          <div class="content-2">
+            <label for="Name">Name:</label>
+            <input
+              type="text"
+              class="content-3"
+              placeholder="Enter name here"
+            />
+          </div>
+          <div class="content-2">
+            <label for="Name">Address:</label>
+            <input
+              type="text"
+              class="content-3"
+              placeholder="Enter address here"
+            />
+          </div>
+          <div class="content-2">
+            <label for="Name">Email</label>
+            <input
+              type="text"
+              class="content-3"
+              placeholder="Enter email here"
+            />
+          </div>
+          <div class="content-2">
+            <label for="Name">Phone Number:</label>
+            <input
+              type="number"
+              class="content-4"
+              placeholder="Enter 10 digit number"
+              min="1"
+              max="9"
+            />
+          </div>
+          <div class="content-2">
+            <label for="Name">IQ:</label>
+            <input
+              type="number"
+              class="content-4"
+              placeholder="Enter IQ here"
+            />
+          </div>
+          <p>Gender</p>
+          <div class="content-2">
+            <div>
+              <input type="radio" value=" Male" />  
+              <label for=" Male"> Male</label>
+            </div>
+            <div>
+              <input type="radio" value=" Female" />  
+              <label for=" Male"> Female</label>
+            </div>
+            <div>
+              <input type="radio" value="  Other" />  
+              <label for=" Male"> Other</label>
+            </div>
+          </div>
+          <div>
+            <div>
+              <label for=" date">Date of Proposed Outing:</label>
+              <input type="date" value=" Male" />  
+            </div>
+          </div>
+        </div>
+        <div id="borders">
+          <p>Check All That Apply</p>
+          <div class="content-2">
+            <div>
+              <input type="checkbox" value="Apply" />
+              <label for="checkbox"> I have tattoos and/or piercings</label>
+            </div>
+            <div>
+              <input type="checkbox" value="Apply" />
+              <label for="checkbox">
+                I am more than 2 years older than my daughter</label
+              >
+            </div>
+            <div>
+              <input type="checkbox" value="Apply" />
+              <label for="checkbox"> I own a panel van or V8 ute</label>
+            </div>
+            <div>
+              <input type="checkbox" value="Apply" />
+              <label for="checkbox"> I work full-time</label>
+            </div>
+            <div>
+              <input type="checkbox" value="Apply" />
+              <label for="checkbox"> My parents are rich</label>
+            </div>
+            <div>
+              <input type="checkbox" value="Apply" />
+              <label for="checkbox">
+                Is the date at a well lit public location</label
+              >
+            </div>
+          </div>
+        </div>
+        <div id="borders">
+          <div class="content-6">
+            <label for="Political ">Political Persuasion: </label>
+            <select>
+              <option option value="leftwing">Left Wing</option>
+              <option value="rightwing">Right Wing</option>
+              <option value="conservativel">Conservative</option>
+              <option value="nazi">Nazi</option>
+            </select>
+          </div>
+          <div class="content-6">
+            <label for="education ">Education Level Completed: </label>
+            <select>
+              <option option value="university">University</option>
+              <option value="college">College</option>
+              <option value="highschool">High School</option>
+              <option value="none">None</option>
+            </select>
+          </div>
+        </div>
+        <div id="borders">
+          <div id="title-1">Essay Section</div>
+          <p>In 50 words or more explain why you want to date my daughter</p>
+          <textarea
+            rows="4"
+            cols="50"
+            class="content-3"
+            placeholder="Enter Text Here"
+          ></textarea>
+          <p class="content-5">
+            Please upload contact details for 2 references
+          </p>
+          <textarea
+            rows="4"
+            cols="50"
+            class="content-3"
+            placeholder="Enter Text Here"
+          ></textarea>
+          <p>
+            Upload Police Clearance Certificate, Bank Statement and Medical
+            Certifiates here:
+          </p>
+          <button id="button">Attach Files</button>
+        </div>
+        <div id="borders-1">
+          <button id="button-1">Send Your Application</button>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
