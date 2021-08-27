@@ -29,12 +29,12 @@
   font-weight: 700;
 }
 
-#survey-from .content {
+#survey-from .container {
   margin-left: 20px;
   margin-bottom: 20px;
 }
 
-#survey-from .content-1 {
+#survey-from .content {
   font-weight: 700;
 }
 
@@ -48,7 +48,7 @@
   border: rgb(211, 211, 211) solid 1px;
 }
 
-#borders #title-1 {
+#borders #container-1 {
   position: relative;
   border: rgb(211, 211, 211) solid none;
   background-color: white;
@@ -58,22 +58,22 @@
   right: -15px;
   font-weight: 700;
 }
-#borders .content-2 {
+#borders .answer-box {
   margin-bottom: 20px;
 }
 
-#borders .content-3 {
+#borders .content-1 {
   color: rgb(118, 118, 118);
 }
 
-#borders .content-4 {
+#borders .content-2 {
   width: 150px;
 }
 
-#borders .content-5 {
+#borders .content-3 {
   margin-bottom: 0;
 }
-#borders .content-6 {
+#borders .borders-1 {
   display: inline;
 }
 #borders #button {
@@ -86,7 +86,7 @@
   font-weight: 400;
 }
 
-#survey-from #borders-1 {
+#survey-from #borders-2 {
   margin: 30px;
   padding: 15px;
   padding-top: 5px;
