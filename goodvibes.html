@@ -11,40 +11,47 @@
     <h1 class="title">Good Vibes Form</h1>
     <div id="outline">
       <form action="goodvibes">
-        <div class="title-1">
+        <div class="container">
           Tell us something positive that happened to you today.
         </div>
         <div>
           <div>
-            <label for="Name" class="title-2">Name </label>
-            <input type="text" class="content" placeholder="Enter your name" />
+            <label class="title-1">Name </label>
+            <input type="text" class="answer-box" placeholder="Enter your name" />
           </div>
           <div>
-            <label for="Email" class="title-2">Email </label>
+            <label class="title-1">Email </label>
             <input
-              type="text"
-              class="content"
+              type="email"
+              class="answer-box"
               placeholder="Enter your email address"
             />
           </div>
           <div>
-            <label for="Email" class="title-2"
+            <label class="title-1"
               >On a scale of 1-10, how good was it?
             </label>
+            <input
+            type="number"
+            class="answer-box"
+            placeholder="Enter a number betwwen 1 and 10"
+            min="1"
+            max="10"
+          />
           </div>
           <div>
-            <label for="cars" class="title-2">Where did it happen?</label>
-            <select class="content-1">
-              <option value="home">At home</option>
-              <option value="home">On my commute</option>
-              <option value="home">At work</option>
-              <option value="home">On the street</option>
-              <option value="home">Other</option>
+            <label class="title-1">Where did it happen?</label>
+            <select class="answer-box-1">
+              <option value="at-home">At home</option>
+              <option value="on-my-commute">On my commute</option>
+              <option value="at-work">At work</option>
+              <option value="on-the-street">On the street</option>
+              <option value="other">Other</option>
             </select>
           </div>
           <div class="title-phrase">
-            <div class="title-2">At what time of day did it happen?</div>
-            <div class="content-2">
+            <div class="title-1">At what time of day did it happen?</div>
+            <div class="content">
               <div class="content-3">
                 <input type="radio" value="morning" />
                 <label for="morning">Morning</label>
@@ -60,43 +67,44 @@
             </div>
           </div>
           <div class="title-phrase">
-            <div class="title-2">
+            <div class="title-1">
               What emotions did you experience? <br />
               (Select all that apply)
             </div>
-            <div class="content-2">
-              <div class="content-3">
-                <input type="checkbox" value="morning" />
-                <label for="Excited">Excited</label>
+            <div class="content">
+              <div class="content-1">
+                <input id="excited-checkbox" type="checkbox" value="morning" />
+                <label for="excited-checkbox">Excited</label>
               </div>
-              <div class="content-3">
-                <input type="checkbox" value="morning" />
-                <label for="Humbled">Humbled</label>
+              <div class="content-1">
+                <input id="humbled-checkbox" type="checkbox" value="morning" />
+                <label for="humbled-checkbox">Humbled</label>
               </div>
-              <div class="content-3">
-                <input type="checkbox" value="morning" />
-                <label for="Elated">Elated</label>
+              <div class="content-1">
+                <input id="elated-checkbox" type="checkbox" value="morning"/>
+                <label for="elated-checkbox">Elated</label>
               </div>
-              <div class="content-3">
-                <input type="checkbox" value="morning" />
-                <label for="Loved">Loved</label>
+              <div class="content-1">
+                <input id="loved-checkbox" type="checkbox" value="morning" />
+                <label for="loved-checkbox">Loved</label>
               </div>
-              <div class="content-3">
-                <input type="checkbox" value="morning" />
-                <label for="Enthusiastic">Enthusiastic</label>
+              <div class="content-1">
+                <input id="enthusiastic-checkbox" type="checkbox" value="morning" />
+                <label for="enthusiastic-checkbox">Enthusiastic</label>
               </div>
             </div>
           </div>
           <div class="title-phrase-1">
-            <label for="Name" class="title-2"
+            <label class="title-1"
               >Please describe your positive experience.
             </label>
-            <textarea class="content-4" placeholder="Enter your email address">
-            </textarea>
-          
+            <div >
+              <textarea class="answer-box-2" cols="1" rows="5" placeholder="Enter your experience here..." ></textarea>
+            </div>
         </div>
-      </div class="content-5">
-      <div><button id="button">Submit</button></div>
+      <div class="container">
+        <button id="button">Submit</button>
+      </div>
       </form>
     </div>
   </body>
