@@ -1,0 +1,75 @@
+#background {
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(../image/survey-form-background.jpeg);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#background #overall {
+  margin: 320px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+
+  color: rgb(243, 243, 243);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#background #container {
+  margin-bottom: 30px;
+
+  text-align: center;
+}
+
+#container .title {
+  font-size: 32px;
+  line-height: 38px;
+}
+
+#container .small-title {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+#background #survey-from {
+  padding: 40px;
+
+  background-color: rgba(27, 27, 50, 0.8);
+  border-radius: 4px;
+}
+
+#survey-from .from-group {
+  margin-bottom: 20px;
+}
+
+.from-group .title-1 {
+  line-height: 35px;
+}
+
+.from-group .answer-box {
+  border: rgb(206, 212, 218) solid 1px;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 35px;
+  width: 600px;
+}
+.from-group .answer-box-1 {
+  margin-bottom: 15px;
+}
+.from-group .answer-box-2 {
+  border: rgb(206, 212, 218) solid 1px;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 100px;
+  width: 600px;
+  color: black;
+}
