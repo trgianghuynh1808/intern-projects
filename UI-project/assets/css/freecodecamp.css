@@ -51,7 +51,7 @@
   margin-bottom: 20px;
 }
 
-.from-group .title-1 {
+.from-group .question {
   line-height: 35px;
 }
 
@@ -66,10 +66,10 @@
   height: 35px;
   width: 99%;
 }
-.from-group .answer-box-1 {
+.from-group .radio-answer-box {
   margin-bottom: 15px;
 }
-.from-group .answer-box-2 {
+.from-group .experience-answer-box {
   padding: 12px;
   padding-top: 6px;
   padding-bottom: 6px;
