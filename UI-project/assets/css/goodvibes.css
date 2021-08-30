@@ -30,7 +30,7 @@
   text-align: center;
 }
 
-#outline .title-1 {
+#outline .input-title {
   padding: 5px;
   margin-top: 10px;
 
@@ -83,7 +83,7 @@
   display: inline-flex;
 }
 
-#outline .answer-box-2 {
+#outline .small-answer-box {
   margin: 10px;
   padding: 5px;
 
@@ -94,7 +94,18 @@
   height: 62px;
 }
 
+#outline #button-wrap {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  text-align: center;
+}
+
 #outline #button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  text-align: center;
   background-color: #6ba2ce;
   font-size: 16px;
   color: white;
