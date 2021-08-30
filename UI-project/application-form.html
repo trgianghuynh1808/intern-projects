@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Build a Survey Form - Responsive Web Design Projects</title>
     <link rel="stylesheet" href="./assets/css/application-form.css" />
   </head>
   <body id="outermost">
@@ -15,47 +15,52 @@
           <b class="content">Note:</b> Form is to be completed at least 21 days
           prior to date
         </div>
-        <div id="borders">
+        <div class="borders">
           <div id="container-1">Personal Details</div>
           <div class="answer-box">
-            <label for="name">Name:</label>
+            <label for="text-name">Name:</label>
             <input
+              id="text-name"
               type="text"
-              class="content-1"
+              class="text-input"
               placeholder="Enter name here"
             />
           </div>
           <div class="answer-box">
-            <label for="address">Address:</label>
+            <label for="text-address">Address:</label>
             <input
+              id="text-address"
               type="text"
-              class="content-1"
+              class="text-input"
               placeholder="Enter address here"
             />
           </div>
           <div class="answer-box">
             <label for="email">Email</label>
             <input
+              id="email"
               type="email"
-              class="content-1"
+              class="text-input"
               placeholder="Enter email here"
             />
           </div>
           <div class="answer-box">
-            <label for="phonenumber">Phone Number:</label>
+            <label for="phone-number">Phone Number:</label>
             <input
+              id="phone-number"
               type="number"
-              class="content-2"
+              class="number-input"
               placeholder="Enter 10 digit number"
               min="1"
               max="9"
             />
           </div>
           <div class="answer-box">
-            <label for="iq">IQ:</label>
+            <label for="iq-number">IQ:</label>
             <input
+              id="iq-number"
               type="number"
-              class="content-2"
+              class="number-input"
               placeholder="Enter IQ here"
               min="0"
             />
@@ -63,64 +68,77 @@
           <p>Gender</p>
           <div class="answer-box">
             <div>
-              <input id="mail-radio" type="radio" value=" Male" />  
-              <label for=" mail-radio"> Male</label>
+              <input id="male-radio" type="radio" name="gender" value="male" />
+               
+              <label for="male-radio"> Male</label>
             </div>
             <div>
-              <input id="female-radio" type="radio" value=" Female" />  
+              <input
+                id="female-radio"
+                type="radio"
+                name="gender"
+                value="female"
+              />
+               
               <label for="female-radio"> Female</label>
             </div>
             <div>
-              <input id="other-radio" type="radio" value="  Other" />  
+              <input
+                id="other-radio"
+                type="radio"
+                name="gender"
+                value="other"
+              />
+               
               <label for="other-radio"> Other</label>
             </div>
           </div>
           <div>
             <div>
-              <label for="mail-date">Date of Proposed Outing:</label>
-              <input id="mail-date" type="date" value=" Male" />  
+              <label for="male-date">Date of Proposed Outing:</label>
+              <input id="male-date" type="date" value="male" />  
             </div>
           </div>
         </div>
-        <div id="borders">
+        <div class="borders">
           <p>Check All That Apply</p>
           <div class="answer-box">
             <div>
-              <input id="apply-checkbox" type="checkbox" value="Apply" />
-              <label for="apply-checkbox">
+              <input id="tatoos-checkbox" type="checkbox" value="Apply" />
+              <label for="tatoos-checkbox">
                 I have tattoos and/or piercings</label
               >
             </div>
             <div>
-              <input id="apply-checkbox" type="checkbox" value="Apply" />
-              <label for="apply-checkbox">
+              <input id="daughter-checkbox" type="checkbox" value="apply" />
+              <label for="daughter-checkbox">
                 I am more than 2 years older than my daughter</label
               >
             </div>
             <div>
-              <input id="apply-checkbox" type="checkbox" value="Apply" />
-              <label for="apply-checkbox"> I own a panel van or V8 ute</label>
+              <input id="panel-checkbox" type="checkbox" value="apply" />
+              <label for="panel-checkbox"> I own a panel van or V8 ute</label>
             </div>
             <div>
-              <input id="apply-checkbox" type="checkbox" value="Apply" />
-              <label for="apply-checkbox"> I work full-time</label>
+              <input id="work-checkbox" type="checkbox" value="apply" />
+              <label for="work-checkbox"> I work full-time</label>
             </div>
             <div>
-              <input id="apply-checkbox" type="checkbox" value="Apply" />
-              <label for="apply-checkbox"> My parents are rich</label>
+              <input id="parents-checkbox" type="checkbox" value="apply" />
+              <label for="parents-checkbox"> My parents are rich</label>
             </div>
             <div>
-              <input id="apply-checkbox" type="checkbox" value="Apply" />
-              <label for="apply-checkbox">
+              <input id="public-checkbox" type="checkbox" value="apply" />
+              <label for="public-checkbox">
                 Is the date at a well lit public location</label
               >
             </div>
           </div>
         </div>
-        <div id="borders">
+        <div class="borders">
           <div class="borders-1">
-            <label for="political ">Political Persuasion: </label>
-            <select>
+            <label for="political">Political Persuasion: </label>
+            <select id="political">
               <option value="leftwing">Left Wing</option>
               <option value="rightwing">Right Wing</option>
               <option value="conservativel">Conservative</option>
@@ -128,8 +146,8 @@
             </select>
           </div>
           <div class="borders-1">
-            <label for="education ">Education Level Completed: </label>
-            <select>
+            <label for="education">Education Level Completed: </label>
+            <select id="education">
               <option value="university">University</option>
               <option value="college">College</option>
               <option value="highschool">High School</option>
@@ -137,13 +155,13 @@
             </select>
           </div>
         </div>
-        <div id="borders">
+        <div class="borders">
           <div id="container-1">Essay Section</div>
           <p>In 50 words or more explain why you want to date my daughter</p>
           <textarea
             rows="4"
             cols="50"
-            class="content-1"
+            class="text-input"
             placeholder="Enter Text Here"
           ></textarea>
           <p class="content-3">
@@ -157,11 +175,10 @@
           ></textarea>
           <p>
             Upload Police Clearance Certificate, Bank Statement and Medical
-            Certifiates here:
+            Certifiates here: <button id="button">Attach Files</button>
           </p>
-          <button id="button">Attach Files</button>
         </div>
-        <div id="borders-2">
+        <div class="borders-2">
           <button id="button-1">Send Your Application</button>
         </div>
       </form>

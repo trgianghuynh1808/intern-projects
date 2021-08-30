@@ -38,7 +38,7 @@
   font-weight: 700;
 }
 
-#survey-from #borders {
+#survey-from .borders {
   margin: 30px;
   padding: 15px;
   padding-top: 5px;
@@ -48,7 +48,7 @@
   border: rgb(211, 211, 211) solid 1px;
 }
 
-#borders #container-1 {
+.borders #container-1 {
   position: relative;
   border: rgb(211, 211, 211) solid none;
   background-color: white;
@@ -58,35 +58,42 @@
   right: -15px;
   font-weight: 700;
 }
-#borders .answer-box {
+
+.borders .answer-box {
   margin-bottom: 20px;
 }
 
-#borders .content-1 {
+.borders .text-input {
   color: rgb(118, 118, 118);
 }
 
-#borders .content-2 {
+.borders .number-input {
   width: 150px;
 }
 
-#borders .content-3 {
+.borders .content-3 {
   margin-bottom: 0;
 }
-#borders .borders-1 {
+.borders .borders-1 {
   display: inline;
 }
-#borders #button {
+
+.borders #button {
   margin: 10px;
   padding: 5px;
 
   background-color: rgb(255, 0, 0);
+  display: inline;
   color: white;
   border: white;
   font-weight: 400;
+  font-size: 19px;
+  height: 32px;
+  width: 110px;
+  display: inline;
 }
 
-#survey-from #borders-2 {
+#survey-from .borders-2 {
   margin: 30px;
   padding: 15px;
   padding-top: 5px;
@@ -103,4 +110,7 @@
   color: white;
   border: white;
   font-weight: 400;
+  font-size: 19px;
+  width: 197px;
+  height: 32px;
 }
