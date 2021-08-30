@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Good Vibes Form</title>
+    <link rel="stylesheet" href="./UI-project/assets/css/goodvibes.css" />
+  </head>
+  <body id="outermost">
+    <h1 class="title">Good Vibes Form</h1>
+    <div id="outline">
+      <form action="goodvibes">
+        <div class="container">
+          Tell us something positive that happened to you today.
+        </div>
+        <div>
+          <div>
+            <label class="input-title">Name </label>
+            <input type="text" class="answer-box" placeholder="Enter your name" />
+          </div>
+          <div>
+            <label class="input-title">Email </label>
+            <input
+              type="email"
+              class="answer-box"
+              placeholder="Enter your email address"
+            />
+          </div>
+          <div>
+            <label class="input-title"
+              >On a scale of 1-10, how good was it?
+            </label>
+            <input
+            type="number"
+            class="answer-box"
+            placeholder="Enter a number betwwen 1 and 10"
+            min="1"
+            max="10"
+          />
+          </div>
+          <div>
+            <label class="input-title">Where did it happen?</label>
+            <select class="answer-box-1">
+              <option value="at-home">At home</option>
+              <option value="on-my-commute">On my commute</option>
+              <option value="at-work">At work</option>
+              <option value="on-the-street">On the street</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="title-phrase">
+            <div class="input-title">At what time of day did it happen?</div>
+            <div class="content">
+              <div class="content-3">
+                <input type="radio" name="happen" value="morning" />
+                <label for="morning">Morning</label>
+              </div>
+              <div class="content-3">
+                <input type="radio" name="happen" value="morning" />
+                <label for="morning">Afternoon</label>
+              </div>
+              <div class="content-3">
+                <input type="radio" name="happen" value="morning" />
+                <label for="morning">Evening</label>
+              </div>
+            </div>
+          </div>
+          <div class="title-phrase">
+            <div class="input-title">
+              What emotions did you experience? <br />
+              (Select all that apply)
+            </div>
+            <div class="content">
+              <div class="content-1">
+                <input id="excited-checkbox" type="checkbox" value="morning" />
+                <label for="excited-checkbox">Excited</label>
+              </div>
+              <div class="content-1">
+                <input id="humbled-checkbox" type="checkbox" value="morning" />
+                <label for="humbled-checkbox">Humbled</label>
+              </div>
+              <div class="content-1">
+                <input id="elated-checkbox" type="checkbox" value="morning"/>
+                <label for="elated-checkbox">Elated</label>
+              </div>
+              <div class="content-1">
+                <input id="loved-checkbox" type="checkbox" value="morning" />
+                <label for="loved-checkbox">Loved</label>
+              </div>
+              <div class="content-1">
+                <input id="enthusiastic-checkbox" type="checkbox" value="morning" />
+                <label for="enthusiastic-checkbox">Enthusiastic</label>
+              </div>
+            </div>
+          </div>
+          <div class="title-phrase-1">
+            <label class="input-title"
+              >Please describe your positive experience.
+            </label>
+            <div >
+              <textarea class="small-answer-box" cols="1" rows="5" placeholder="Enter your experience here..." ></textarea>
+            </div>
+        </div>
+      <div id="button-wrap" >
+        <button id="button">Submit</button>
+      </div>
+
+
+      </form>
+    </div>
+  </body>
+</html>
