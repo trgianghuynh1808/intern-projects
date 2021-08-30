@@ -90,4 +90,6 @@
   font-size: 18px;
   height: 50px;
   width: 100%;
+  border: rgb(243, 243, 243) solid 0px;
+  border-radius: 2px;
 }
