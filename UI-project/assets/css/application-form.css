@@ -1,0 +1,115 @@
+#outermost {
+  margin: 10px;
+}
+
+#outermost #outside {
+  margin-top: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  background-color: rgb(250, 250, 210);
+}
+
+#outside #survey-from {
+  margin-left: 100px;
+  margin-right: 100px;
+
+  background-color: rgb(255, 255, 255);
+  border: rgb(204, 204, 204) solid 1px;
+  font-size: 20px;
+  border-radius: 15px;
+  font-family: "Anaheim";
+}
+#survey-from #title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#survey-from .container {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#survey-from .content {
+  font-weight: 700;
+}
+
+#survey-from .borders {
+  margin: 30px;
+  padding: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+
+  position: relative;
+  border: rgb(211, 211, 211) solid 1px;
+}
+
+.borders #container-1 {
+  position: relative;
+  border: rgb(211, 211, 211) solid none;
+  background-color: white;
+  width: fit-content;
+  z-index: 99;
+  top: -20px;
+  right: -15px;
+  font-weight: 700;
+}
+
+.borders .answer-box {
+  margin-bottom: 20px;
+}
+
+.borders .text-input {
+  color: rgb(118, 118, 118);
+}
+
+.borders .number-input {
+  width: 150px;
+}
+
+.borders .content-3 {
+  margin-bottom: 0;
+}
+.borders .borders-1 {
+  display: inline;
+}
+
+.borders #button {
+  margin: 10px;
+  padding: 5px;
+
+  background-color: rgb(255, 0, 0);
+  display: inline;
+  color: white;
+  border: white;
+  font-weight: 400;
+  font-size: 19px;
+  height: 32px;
+  width: 110px;
+}
+
+#survey-from .borders-2 {
+  margin: 30px;
+  padding: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#button-1 {
+  margin: 10px;
+  padding: 5px;
+
+  background-color: rgb(255, 0, 0);
+  align-items: flex-start;
+  color: white;
+  border: white;
+  font-weight: 400;
+  font-size: 19px;
+  width: 197px;
+  height: 32px;
+}
