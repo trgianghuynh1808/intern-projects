@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Good Vibes Form</title>
     <link rel="stylesheet" href="./UI-project/assets/css/goodvibes.css" />
   </head>
   <body id="outermost">
@@ -16,11 +16,11 @@
         </div>
         <div>
           <div>
-            <label class="title-1">Name </label>
+            <label class="input-title">Name </label>
             <input type="text" class="answer-box" placeholder="Enter your name" />
           </div>
           <div>
-            <label class="title-1">Email </label>
+            <label class="input-title">Email </label>
             <input
               type="email"
               class="answer-box"
@@ -28,7 +28,7 @@
             />
           </div>
           <div>
-            <label class="title-1"
+            <label class="input-title"
               >On a scale of 1-10, how good was it?
             </label>
             <input
@@ -40,7 +40,7 @@
           />
           </div>
           <div>
-            <label class="title-1">Where did it happen?</label>
+            <label class="input-title">Where did it happen?</label>
             <select class="answer-box-1">
               <option value="at-home">At home</option>
               <option value="on-my-commute">On my commute</option>
@@ -50,24 +50,24 @@
             </select>
           </div>
           <div class="title-phrase">
-            <div class="title-1">At what time of day did it happen?</div>
+            <div class="input-title">At what time of day did it happen?</div>
             <div class="content">
               <div class="content-3">
-                <input type="radio" value="morning" />
+                <input type="radio" name="happen" value="morning" />
                 <label for="morning">Morning</label>
               </div>
               <div class="content-3">
-                <input type="radio" value="morning" />
+                <input type="radio" name="happen" value="morning" />
                 <label for="morning">Afternoon</label>
               </div>
               <div class="content-3">
-                <input type="radio" value="morning" />
+                <input type="radio" name="happen" value="morning" />
                 <label for="morning">Evening</label>
               </div>
             </div>
           </div>
           <div class="title-phrase">
-            <div class="title-1">
+            <div class="input-title">
               What emotions did you experience? <br />
               (Select all that apply)
             </div>
@@ -95,16 +95,18 @@
             </div>
           </div>
           <div class="title-phrase-1">
-            <label class="title-1"
+            <label class="input-title"
               >Please describe your positive experience.
             </label>
             <div >
-              <textarea class="answer-box-2" cols="1" rows="5" placeholder="Enter your experience here..." ></textarea>
+              <textarea class="small-answer-box" cols="1" rows="5" placeholder="Enter your experience here..." ></textarea>
             </div>
         </div>
-      <div class="container">
+      <div id="button-wrap" >
         <button id="button">Submit</button>
       </div>
+
+
       </form>
     </div>
   </body>
