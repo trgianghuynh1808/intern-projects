@@ -22,13 +22,15 @@
   border-radius: 10px;
   font-size: 22px;
 }
-#outline .title-1 {
+
+#outline .container {
   margin-top: 20px;
   margin-bottom: 20px;
 
   text-align: center;
 }
-#outline .title-2 {
+
+#outline .title-1 {
   padding: 5px;
   margin-top: 10px;
 
@@ -37,7 +39,8 @@
   width: 320px;
   text-align: right;
 }
-#outline .content {
+
+#outline .answer-box {
   margin: 10px;
   padding: 5px;
 
@@ -48,7 +51,7 @@
   height: 25px;
 }
 
-#outline .content-1 {
+#outline .answer-box-1 {
   margin: 10px;
   padding: 5px;
 
@@ -58,11 +61,12 @@
   width: 140px;
   height: 25px;
 }
+
 #outline .title-phrase {
   display: flex;
 }
 
-#outline .content-2 {
+#outline .content {
   padding: 5px;
   margin-top: 10px;
 
@@ -71,28 +75,33 @@
   font-size: 17px;
 }
 
-#outline .content-3 {
+#outline .content-1 {
   margin-bottom: 10px;
 }
 
 #outline .title-phrase-1 {
   display: inline-flex;
 }
-#outline .content-4 {
+
+#outline .answer-box-2 {
   margin: 10px;
   padding: 5px;
 
+  background-color: rgb(255, 255, 255);
   border: rgb(192, 192, 192) solid 1px;
   border-radius: 5px;
-  width: 290px;
-  height: 60px;
+  width: 292px;
+  height: 62px;
 }
 
-#outline .content-5{
-  display:block;
-  text-align: center;
-}
 #outline #button {
-
-text-align: center;
-align-items: center;
+  background-color: #6ba2ce;
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  border: rgb(192, 192, 192) solid 1px;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+}
