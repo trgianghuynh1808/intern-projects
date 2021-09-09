@@ -1,0 +1,222 @@
+#background {
+  margin: 0px;
+
+  font-family: "Lato", sans-serif;
+}
+
+#all {
+  background-color: #eee;
+  position: relative;
+}
+
+#all #header {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  min-height: 75px;
+  width: 97%;
+  position: fixed;
+}
+
+#header #group-logo {
+}
+
+#group-logo #logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+}
+#header #boder-menu {
+}
+#boder-menu #menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  width: 35vw;
+}
+
+#menu .content-menu {
+  color: black;
+  text-decoration: none;
+}
+
+#background #page {
+  padding-top: 75px;
+}
+
+#background #title-phrase {
+  text-align: center;
+}
+
+#title-phrase #title {
+  font-size: 24px;
+}
+
+#title-phrase #input-email {
+  padding: 5px;
+
+  max-width: 275px;
+  width: 100%;
+}
+
+#title-phrase #input-get-started {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  background-color: #f1c40f;
+  font-family: Arial;
+  font-weight: 900;
+  font-size: 16px;
+  height: 30px;
+  width: 150px;
+  border: black solid 0px;
+}
+
+#title-phrase #input-submit:hover {
+  background-color: orange;
+}
+
+#background #container {
+  margin-right: auto;
+  margin-left: auto;
+
+  max-width: 1000px;
+  width: 100%;
+}
+#container #boder-content {
+  margin-top: 30px;
+}
+
+#boder-content .content {
+  display: flex;
+  justify-content: center;
+
+  height: 125px;
+}
+
+.content .group-icon {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  align-items: center;
+}
+
+.group-icon .icon {
+  color: darkorange;
+  font-family: "Font Awesome 5 Free";
+  display: block;
+  font-size: 48px;
+}
+
+.content .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  width: 100%;
+}
+
+.item .small-content {
+  margin-bottom: 0px;
+}
+
+.item .comment {
+  margin-top: 0px;
+}
+
+#background #video {
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: center;
+}
+
+#background #price-list {
+  margin-top: 60px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#price-list #price {
+  margin: 10px;
+
+  border: black solid 1px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+}
+
+#price #product {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  background-color: #ddd;
+  width: 100%;
+  font-weight: 700;
+}
+
+#price #information {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#price #input-select {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  background-color: #f1c40f;
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 16px;
+  height: 40px;
+  width: 102px;
+  border: black solid 0px;
+}
+
+#price #input-select:hover {
+  background-color: orange;
+}
+
+#page #footer {
+  margin-top: 30px;
+  padding: 20px;
+
+  background-color: #ddd;
+}
+
+#footer #menu-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+#menu-footer .content-footer {
+  padding-left: 10px;
+  padding-right: 10px;
+
+  color: black;
+  text-decoration: none;
+}
+
+#footer #copyright {
+  margin-top: 5px;
+
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+}
