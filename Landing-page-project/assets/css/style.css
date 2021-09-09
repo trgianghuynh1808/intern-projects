@@ -1,4 +1,6 @@
 #background {
+  margin: 0px;
+
   background-color: #eee;
   font-family: "Lato", sans-serif;
 }
@@ -6,13 +8,28 @@
 #background #header {
   margin-left: 20px;
   margin-right: 20px;
-  padding: 20px;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: #eee;
+  height: 75px;
+  align-items: center;
+  position: fixed;
+  position: 0px;
+}
+#background #page {
+  padding-top: 75px;
+  margin-left: 174px;
+  margin-right: 174px;
 }
 
-#header #logo {
+#header #group-logo {
+  width: 820px;
+}
+
+#group-logo #logo {
+  display: flex;
+  justify-content: center;
   height: 34px;
   width: 300px;
 }
@@ -21,6 +38,11 @@
   display: flex;
   justify-content: space-around;
   width: 480px;
+}
+
+#menu .content-menu {
+  color: black;
+  text-decoration: none;
 }
 
 #background #title-phrase {
@@ -37,7 +59,7 @@
   width: 275px;
 }
 
-#title-phrase #input-submit {
+#title-phrase #input-get-started {
   margin-top: 15px;
   margin-bottom: 15px;
   padding-left: 20px;
@@ -95,4 +117,85 @@
 
   display: flex;
   justify-content: center;
+}
+
+#background #price-list {
+  margin-top: 60px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#price-list #price {
+  margin: 10px;
+
+  border: black solid 1px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 313px;
+  height: 311px;
+}
+
+#price #product {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  background-color: #ddd;
+  width: 313px;
+  font-weight: 700;
+}
+
+#price #information {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#price #input-select {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  background-color: #f1c40f;
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 16px;
+  height: 40px;
+  width: 102px;
+  border: black solid 0px;
+}
+
+#price #input-select:hover {
+  background-color: orange;
+}
+
+#page #footer {
+  margin-top: 30px;
+  padding: 20px;
+
+  background-color: #ddd;
+}
+
+#footer #menu-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+#menu-footer .content-footer {
+  padding-left: 10px;
+  padding-right: 10px;
+
+  color: black;
+  text-decoration: none;
+}
+
+#footer #copyright {
+  margin-top: 5px;
+
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
 }
