@@ -1,4 +1,28 @@
 @media only screen and (max-width: 600px) {
-  #title {
+  #all #header {
+    margin-top: 20px;
+
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #header #boder-menu {
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #boder-menu #menu {
+    flex-direction: column;
+  }
+
+  #menu .content-menu {
+    padding-bottom: 5px;
   }
 }

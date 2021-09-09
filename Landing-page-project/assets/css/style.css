@@ -31,14 +31,15 @@
   align-items: center;
   max-width: 300px;
 }
-
-#header #menu {
+#header #boder-menu {
+}
+#boder-menu #menu {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  max-width: 500px;
-  width: 37%;
+
+  width: 35vw;
 }
 
 #menu .content-menu {
