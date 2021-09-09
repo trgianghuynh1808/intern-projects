@@ -55,3 +55,44 @@
 #title-phrase #input-submit:hover {
   background-color: orange;
 }
+
+#background #container {
+  margin-top: 30px;
+}
+
+#container .content {
+  display: flex;
+  justify-content: center;
+}
+
+.content .group-icon {
+  display: flex;
+  justify-content: center;
+  height: 125px;
+  width: 200px;
+  align-items: center;
+}
+
+.group-icon .icon {
+  color: darkorange;
+  font-family: "Font Awesome 5 Free";
+  display: block;
+  font-size: 48px;
+}
+
+.item .comment {
+  width: 800px;
+}
+.item .small-content {
+  margin-top: 38px;
+  margin-bottom: 0px;
+
+  font-size: 24px;
+}
+
+#background #video {
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: center;
+}
