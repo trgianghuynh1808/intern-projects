@@ -1,9 +1,13 @@
 @media only screen and (max-width: 600px) {
   #all #header {
-    margin-top: 20px;
+    padding-top: 20px;
 
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  #background #page {
+    padding-top: 145px;
   }
 }
 
@@ -24,5 +28,36 @@
 
   #menu .content-menu {
     padding-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .content .group-icon {
+    display: none;
+  }
+
+  .content .item {
+    padding: 0px;
+
+    width: 100%;
+    text-align: center;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #background #price-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #price-list #price {
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+    max-width: 300px;
+    width: 100%;
   }
 }
